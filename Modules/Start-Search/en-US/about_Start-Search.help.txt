@@ -1,0 +1,26 @@
+TOPIC
+    about_Start-Search.help
+
+SHORT DESCRIPTION
+    Search the internet from the command line using the default browser.
+
+LONG DESCRIPTION
+    Search the internet from the command line using the default browser. Simply appends the parameter onto the browser search URL.
+
+    Save the module folder into the PowerShell modules (default: $PSHOME\Modules).
+    
+    Add `Install-Module Start-Search.psm1` to the profile (typically `~/Documents/PowerShell/Microsoft.PowerShell_profile.ps1`)
+
+EXAMPLES
+    Start-Search "this is a test"
+    Start-Search -searchString "this is a test"
+    Start-Search -searchString "this is a test" -searchUrl "https://www.bing.com/search?q="
+
+KEYWORDS
+    search
+    google
+    neeva
+    browser
+
+SEE ALSO
+    neeva.com search used as default search engine.
